@@ -1,9 +1,0 @@
-11. write a program to swap any two values from a list using function swap()
-input  : list1=[1,2,3,4,5,8,10]
-output :list2=[1,2,10,4,5,8,3]
-
-12. pass list as argument and get the sum of list
-list1=[1,2,3,7,4,5,8,10]
-
-13. pass tuple and count number of elemnt in tuple
-tup=(1,2,3,7,4,5,8,10)
