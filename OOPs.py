@@ -128,14 +128,91 @@ obj1.read()
 # obj.mdisplay()
 # obj.sdisplay()
 
-class father: 
-    def fdisplay(self):
-        print("FATHER")
+# class father:
+#     def fdisplay(self):
+#         print("FATHER")
+#
+# class son1(father):
+#     def s1display(self):
+#         print("SON 1")
+#
+# class son2(father):
+#     def s2display(self):
+#         print("SON 2")
+#
+# s1 = son1()
+# s2 = son2()
+# s1.s1display()
+# s2.s2display()
+# s1.fdisplay()
+# s2.fdisplay()
 
-class son1(father):
-    def s1display(self):
-        print("SON 1")
+# class encap:
+#     a = 10
+#     def display(self):
+#         print("WEL-COME")
+#
+# obj = encap()
+# print(obj.a)
+# obj.display()
 
-class son2(father):
-    def s1display(self):
-        print("SON 2")
+# class encap:
+#     __a = 10
+#     def __display(self):
+#         print("WEL-COME")
+#         print(self.__a)
+#
+# obj = encap()
+# print(obj.a)
+# obj.display()
+
+# --------------------------------------------------------------------------------------------------------------------
+# from abc import ABC, abstractmethod
+#
+# class AbstractDemo(ABC):    # Abstarct Class
+#     @ abstractmethod        # Decorater
+#     def display(self):
+#         print('we are in the AbstarctClass')
+#
+# class Demo(AbstractDemo):   # Concreate Class
+#     def display(self):
+#         print('ABSTARCT METHOD')
+#
+# obj = Demo()
+# obj.display()
+
+# ----------------------------------------------------------------------------------------------------------------
+
+# Polymorphism : implementing the same thing in different way
+# 1. concatinating
+# a = "Hello "
+# b = "Wel Come"
+# c = a + b
+# print(c)
+
+# 2. addition
+# a = 100
+# b = 300
+# c = a + b
+# print(c)
+
+#
+# class moverload:
+#     def display(self,a=None,b=None):
+#         print(a,b)
+#
+# obj = moverload()
+# obj.display()
+# obj.display(100,)
+# obj.display(1000,1000)
+
+# class father:
+#     def transport(self):
+#         print('CYCLE')
+#
+# class son(father):
+#     def transport(self):
+#         print('BIKE')
+#
+# obj=son()
+# obj.transport()
