@@ -1,0 +1,1 @@
+Remember to handle file closure efficiently by using the with statement (context manager). It automatically takes care of closing the file when you are done, even if an exception occurs. Also, ensure that the file paths are correct and that you have the necessary permissions to perform the specified file operations.This is new string added
